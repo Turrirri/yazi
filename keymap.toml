@@ -228,8 +228,12 @@ keymap = [
   ], run = "cd ~/.config", desc = "Go ~/.config" },
   { on = [
     "g",
+    "t",
+  ], run = "cd /mnt/BACKUPS/HOME", desc = "Go /mnt/BACKUPS/HOME" },
+  { on = [
+    "g",
     "d",
-  ], run = "cd ~/Downloads", desc = "Go ~/Downloads" },
+  ], run = "cd ~/Descargas", desc = "Go ~/Descargas" },
   { on = [
     "g",
     "<Space>",
